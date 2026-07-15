@@ -177,6 +177,7 @@ main{
     font-weight: 400;
 }
 /* gallery ends */
+/* pricing card starts here */
 .cards{
     margin-top: 200px;
 }
@@ -184,7 +185,8 @@ main{
     display: flex;
     justify-content: space-around;
     /* padding: 48px 60px 80px 60px; */
-    margin: 96px 60px 80px 60px;
+    margin: 96px 60px 80px 35px;
+    gap: 20px;
 }
 .price-card-title{
     text-align: center;
@@ -201,9 +203,9 @@ main{
     text-align: center;
 }
 .price-card .card1{
-    border: 1px solid black;
+    border: 1px solid #575757;
     border-radius: 12px;
-    text-align: center;
+    text-align: start;
     padding: 32px;
 }
 .price-card .card2{
@@ -211,13 +213,132 @@ main{
     background-color: #0D1B2A;
     color: #FFFFFF;
     border-radius: 12px;
-    text-align: center;
+    text-align: start;
     padding:32px;
 }
 .price-card .card3{
-    border: 1px solid black;
+    border: 1px solid #575757;
     background-color: #E5E7EB;
     border-radius: 12px;
-    text-align: center;
+    text-align: start;
     padding:32px;
 }
+
+.card1-button{
+     background-color:white;
+    color:#1d4ed8;
+    border-radius: 10px;
+    padding: 10px 150px;
+    border-color: #1d4ed8;
+    text-align:center;
+
+}
+.card2-button{
+    background-color:#1d4ed8;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 150px;
+    border: none;
+}
+
+.card3-button{
+    background-color:white;
+    color:#1d4ed8;
+    border-radius: 10px;
+    padding: 10px 150px;
+    border-color: #1d4ed8;
+}
+.price-card-button{
+    text-align: center;
+}
+.card2 hr{
+     width: auto;
+  margin: auto;
+  border: none;
+  height: 0.08px;
+  background: #e5e7eb;
+}
+.card1 hr{
+     width: auto;
+  margin: auto;
+  border: none;
+  height: 0.08px;
+  background: #e5e7eb;
+}
+.card3 hr{
+     width: auto;
+  margin: auto;
+  height: 0.08px;
+  background: #e5e7eb;
+}
+.card1 p{
+    font-size: 13px;
+    color: #888888;
+    padding-bottom: 30px;
+}
+.card1 .key{
+    font-weight: 600;
+}
+.card1 h2{
+    font-size: 44px;
+    font-weight: 700;
+}
+li::marker{
+    color: #2563eb;
+}
+.card1 ul{
+    /* display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: left; */
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.card2 ul{
+    /* display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: left; */
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.card3 ul{
+    /* display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: left; */
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.card2 h2{
+    font-size: 44px;
+    font-weight: 700;
+}    
+.card2 .key{
+    font-weight: 600;
+    color: #93C5FD;
+}
+.card3 h2{
+    font-size: 44px;
+    font-weight: 700;
+}
+.card3 .key{
+    font-weight: 600;
+}
+.card2 p{
+    font-size: 13px;
+    color: #888888;
+    padding-bottom: 30px;
+}
+.card3 p{
+    font-size: 13px;
+    color: #888888;
+    padding-bottom: 30px;
+}
+/* pricing card ends here */
