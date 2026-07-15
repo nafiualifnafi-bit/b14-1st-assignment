@@ -231,6 +231,8 @@ main{
     padding: 10px 150px;
     border-color: #1d4ed8;
     text-align:center;
+    font-size: 14px;
+    font-weight: 600;
 
 }
 .card2-button{
@@ -239,6 +241,8 @@ main{
     border-radius: 10px;
     padding: 10px 150px;
     border: none;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .card3-button{
@@ -247,6 +251,8 @@ main{
     border-radius: 10px;
     padding: 10px 150px;
     border-color: #1d4ed8;
+    font-size: 14px;
+    font-weight: 600;
 }
 .price-card-button{
     text-align: center;
@@ -342,3 +348,65 @@ li::marker{
     padding-bottom: 30px;
 }
 /* pricing card ends here */
+/* missing section challenge starts */
+/* missing section ends */
+/* footer starts */
+
+.foot{
+    /* max-width: 1280px;
+     */
+    background-color: #0d1b2a;
+}
+.footer{
+    margin: auto;
+
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+}
+.footer .footer-logo{
+    padding-top: 50px;
+    padding-bottom:30px ;
+}
+.socials{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+}
+.socials .facebook{
+    filter: brightness(0) invert(1);
+
+}
+.socials .insta{
+    filter: brightness(0) invert(1);
+}
+.socials .linked{
+    filter: brightness(0) invert(1);
+}
+.foot .bar{
+       width: auto;
+  margin: auto;
+  border: none;
+  height: 0.08px;
+  background: #888888;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.copyright .rights p{
+    color: #FFFFFF;
+    font-size: 16;
+    font-weight: 400;
+
+}
+.copyright .policy{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.copyright .policy p{
+    color:#FFFFFF ;
+}
+/* footer ends */
