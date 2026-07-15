@@ -1,4 +1,4 @@
-*{ font-family: "Open Sans", sans-serif; margin: 0;}
+*{ font-family: "Open Sans", sans-serif; margin: 0; box-sizing: border-box;}
 /* nav bar starts */
 nav{
     display: flex;
@@ -6,6 +6,7 @@ nav{
     justify-content:space-around;
     padding: 20px 60px;
     align-items: center;
+    text-wrap: wrap;
 }
 
 .nav-list{
@@ -69,4 +70,124 @@ main{
     margin-top: 200px;
     margin-bottom: 50px;
 
+}
+/* gallery ends */
+.gallery h2{
+    text-align: center;
+    padding: 50px;
+    font-size: 56px;
+}
+
+.gallery .devs{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    
+    gap: 30px;
+    margin:20px;
+    place-items: center;
+    
+
+}
+
+.img1{
+    border: 1px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.img2{
+    border: 1px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.img3{
+    border: 1px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.img4{
+    border: 1px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.text-info{
+    margin: 30px;
+}
+
+
+
+/* .img1 img{
+    height: 100%;
+    width: 600px;
+    object-fit: cover;
+
+}
+.img2 img{
+    height: 100%;
+    width: 600px;
+    object-fit: cover;
+
+} */
+/* .gallery .devs .img1 .img2 .img3 .img4 {} */
+
+.img1 .name{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+}
+.img2 .name{
+     font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+
+}
+.img3 .name{
+     font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+
+}
+.img4 .name{
+     font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+
+}
+
+.img1 .title{
+    color: #2563eb;
+    font-weight: 400;
+}
+.img2 .title{
+    color: #2563eb;
+    font-weight: 400;
+}
+.img3 .title{
+    color: #2563eb;
+    font-weight: 400;
+}
+.img4 .title{
+    color: #2563eb;
+    font-weight: 400;
+}
+/* gallery ends */
+.price-card{
+    display: flex;
+    justify-content: space-around;
+}
+.price-card-title{
+    text-align: center;
+}
+.price-card-title .h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.price-card .card1{
+    border: 1px solid black;
+}
+.price-card .card2{
+    border: 1px solid black;
+}
+.price-card .card3{
+    border: 1px solid black;
 }
