@@ -353,14 +353,56 @@ li::marker{
     display: flex;
     flex-direction: column ;
     text-align: center;
+    background-color: #0d1b2a;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
-.sponsor h3{
+/* .sponsor h3{
     color: #1d4ed8;
-    font-size: 40px;
+    font-size: 40px; */
 
+.plat-img .plat{
+    font-size: 50px;
+  font-weight: bold;
+
+  background-image: url('./plat.jpg');
+  background-size: cover;
+  background-position: center;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gold-img .gold{
+   font-size: 50px;
+  font-weight: bold;
+
+  background-image: url('./gold.jpg');
+  background-size: cover;
+  background-position: center;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.silver-img .silver{
+    font-size: 50px;
+    
+  font-weight: bold;
+
+  background-image: url('./sil.jpg');
+  background-size: cover;
+  background-position: center;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .sponsor h2{
     font-size: 70px;
+}
+.sponsor .text{
+    color: #FFFFFF;
 }
 
 .spon-but{
@@ -368,7 +410,11 @@ li::marker{
     padding-top: 20px;
     padding-bottom: 60px;
 }
-.spon-but .sponsor-button{
+.later-part-spon p{
+    padding-top: 30px;
+    color: #e5e7eb;
+}
+.later-part-spon .spon-but .sponsor-button{
     background-color:#1d4ed8;
     color: #FFFFFF;
     border-radius: 10px;
