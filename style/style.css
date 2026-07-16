@@ -45,7 +45,7 @@ main{
     /* background-image: url('banner.jpg'); */
      background:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('banner.jpg') ;
+    url('./banner.jpg') ;
     /* padding: ; */
     color: #FFFFFF;
     text-align: center;
