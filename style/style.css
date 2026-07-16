@@ -374,6 +374,8 @@ li::marker{
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 .gold-img .gold{
    font-size: 50px;
@@ -385,6 +387,8 @@ li::marker{
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 .silver-img .silver{
     font-size: 50px;
@@ -397,6 +401,8 @@ li::marker{
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 .sponsor h2{
     font-size: 70px;
@@ -424,6 +430,8 @@ li::marker{
     font-weight: 600;
 
 }
+
+
 /* missing section ends */
 /* footer starts */
 
